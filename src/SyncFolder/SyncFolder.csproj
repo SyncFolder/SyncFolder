@@ -1,7 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>SyncFolder</Company>
+    <Version>1.0.0</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>SyncFolder Sync Folder</PackageTags>
+    <RepositoryType />
+    <RepositoryUrl></RepositoryUrl>
+    <Description>SyncFolder</Description>
+    <Authors>SyncFolder</Authors>
+    <PackageProjectUrl>https://github.com/SyncFolder/SyncFolder</PackageProjectUrl>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\SyncFolder.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
